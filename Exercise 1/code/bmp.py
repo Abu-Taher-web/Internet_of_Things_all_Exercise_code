@@ -8,4 +8,5 @@ bmp = BMP280(i2c)
 
 while True:
     print(bmp.temperature, bmp.pressure)
+    
 
