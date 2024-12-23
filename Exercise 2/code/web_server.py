@@ -3,7 +3,7 @@ import wifi_connection
 from wifi_connection import connect_wifi
 
 # Replace with your Wi-Fi credentials
-SSID = "Taher 1"
+SSID = "Taher"
 PASSWORD = "50904426"
 
 # Connect to Wi-Fi

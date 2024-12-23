@@ -1,10 +1,7 @@
 from machine import Pin
 import time
 
-led = Pin("LED", Pin.OUT)
+led = Pin(13, Pin.OUT)  # Onboard LED is connected to GPIO 25
 
-while True:
-    led.on()
-    time.sleep_ms(500)
-    led.off()
-    time.sleep_ms(500)
+led.on()
+
