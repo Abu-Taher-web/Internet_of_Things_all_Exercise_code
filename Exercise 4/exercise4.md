@@ -13,7 +13,8 @@ Node-RED is a programming tool used for wiring together hardware devices, APIs, 
 1. Acquire data published on the MQTT cloud server using Node-RED.
 2. Store the data into an InfluxDB instance on a local machine.
 
-![Node-RED Flow Example](<img_placeholder>)
+<img src="https://github.com/Abu-Taher-web/Internet_of_Things_all_Exercise_code/blob/main/Exercise%204/Images/node-red.png" alt="Node-RED Flow Example" />
+
 
 ## Implementation Steps
 
@@ -132,7 +133,8 @@ return newMsg;
    - Go to **Data Explorer** in InfluxDB.
    - Select the bucket and measurement to view the graph of incoming measurements.
 
-![InfluxDB Data Visualization](<img_placeholder>)
+<img src="https://github.com/Abu-Taher-web/Internet_of_Things_all_Exercise_code/blob/main/Exercise%204/Images/influxdb.png" alt="Node-RED Flow Example" />
+
 
 ## Controlling the Output on Raspberry Pi Pico W
 
@@ -153,4 +155,4 @@ return newMsg;
 - Verify that control signals from Node-RED are correctly received and acted upon by the Raspberry Pi Pico W.
 - Ensure the system responds accurately to changing data values, meeting the specified threshold conditions.
 
-![Control Flow Diagram](<img_placeholder>)
+<img src="https://github.com/Abu-Taher-web/Internet_of_Things_all_Exercise_code/blob/main/Exercise%204/Images/grafana.png" alt="Node-RED Flow Example" />
