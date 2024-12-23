@@ -42,9 +42,11 @@ For creating an MQTT server to publish and subscribe to data via topics, we have
    - Click the **⊕** symbol near the "Clusters" section on the left panel.  
    - Choose the **Free** option.  
    - Once created, the server details will be displayed.  
-   - **Cluster URL**: This is the URL you will use later in your code.  
-   
-   ![Cluster Details Placeholder](path/to/cluster-image.png)
+   - **Cluster URL**: This is the URL you will use later in your code.
+  
+<img src="https://github.com/Abu-Taher-web/Internet_of_Things_all_Exercise_code/blob/main/Exercise%203/images/cluster.png" alt="Cluster Details" width="600">
+
+
 
 4. **Define/Create Credentials for Access**:  
    - Go to the **Access Management** tab.  
@@ -52,7 +54,8 @@ For creating an MQTT server to publish and subscribe to data via topics, we have
    - Choose "Publish and Subscribe" in the permissions.  
    - Click **Create Credential**.  
 
-   ![Access Management Placeholder](path/to/access-management-image.png)
+  <img src="https://github.com/Abu-Taher-web/Internet_of_Things_all_Exercise_code/blob/main/Exercise%203/images/access-management.png" alt="Cluster Details" width="600">
+  
 ### 4. Publish the Data to MQTT Server
 
 - **Install Required Libraries**:  
@@ -76,7 +79,7 @@ For creating an MQTT server to publish and subscribe to data via topics, we have
     - Alternatively, type the specific topic name you want to subscribe to.  
   - Observe the published messages displayed on the screen.  
 
-   ![Data Publishing Placeholder](path/to/data-publishing-image.png)
+   <img src="https://github.com/Abu-Taher-web/Internet_of_Things_all_Exercise_code/blob/main/Exercise%203/images/message.png" alt="Cluster Details" width="600">
 
 ---
 
